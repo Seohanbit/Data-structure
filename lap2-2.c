@@ -1,7 +1,6 @@
 #include <stdio.h>
 int main()
 {
-{
     printf("[-----[Seo han bit]   [2019038043]-----]\n");
     
     int i;
