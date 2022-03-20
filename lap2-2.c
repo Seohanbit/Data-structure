@@ -34,7 +34,7 @@ int main()
     printf("address of ptr == %p\n", &ptr);             //변수 ptr의 주소를 출력
     printf("value of *ptr == %d\n", *ptr);              //역참조를 통해 ptr변수에 들어있는 i의 주소 안에 있는 값을 출력
     printf("value of dptr == %p\n", dptr);              //변수 dptr의 값을 출력
-    printf("address of ptr == %p\n", &dptr);            //변수 dptr의 주소를 출력
+    printf("address of dptr == %p\n", &dptr);            //변수 dptr의 주소를 출력
     printf("value of *dptr == %p\n", *dptr);            //dptr에 들어있는 ptr의 주소를 역참조하여 ptr의 값을 출력
     printf("value of **dptr == %d\n", **dptr);          //두번 역참조하여 dptr에 있는 주소로 ptr로 가서 ptr에 있는 i의 주소에 있는 값을 출력
 
